@@ -4,7 +4,7 @@ This project is a modern, responsive landing page designed for the AIC (AI Club)
 
 ### Candidate Information
 - **Name:** Rashmi Priya
-- **Registration Number:** [24BCE10054]
+- **Registration Number:** 24BCE10054
 
 ---
 
@@ -33,8 +33,8 @@ A user-friendly, high-performance landing page built for the AI Club at VIT Bhop
 - `style2.css`: Custom styling and design tokens.
 
 ### 🌐 Links
-- **Live Demo:** [Insert your GitHub Pages Link Here]
-- **Repository:** [Insert your GitHub Repository Link Here]
+- **Live Demo:** (https://rashmip2102.github.io/Web-Team-AIC/)
+- **Repository:** (https://github.com/rashmip2102/Web-Team-AIC/)
 
 ---
 *Submitted for the AI Club Web Team Recruitment Task.*
