@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Club | Future of Intelligence</title>
+    <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); }
+        .hero-gradient { background: radial-gradient(circle at 50% 50%, #1e1b4b 0%, #020617 100%); }
+    </style>
+</head>
+<body class="bg-slate-950 text-white font-sans overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 glass border-b border-white/10 px-6 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">AI CLUB</h1>
+        <div class="hidden md:flex space-x-8">
+            <a href="#events" class="hover:text-cyan-400 transition">Events</a>
+            <a href="#contact" class="hover:text-cyan-400 transition">Contact</a>
+            <a href="#about" class="hover:text-cyan-400 transition">About Us</a>
+            <a href="#join" class="bg-cyan-600 hover:bg-cyan-500 px-5 py-2 rounded-full transition">Join Us</a>
+        </div>
+    </nav>
+
+    <section class="h-screen flex flex-col justify-center items-center text-center px-4 hero-gradient">
+        <div data-aos="fade-up">
+            <span class="text-cyan-400 font-mono tracking-widest uppercase text-sm">Welcome to the Future</span>
+            <h1 class="text-5xl md:text-7xl font-extrabold mt-4 mb-6">Innovate. Create. <br><span class="text-blue-500">Automate.</span></h1>
+            <p class="max-w-2xl text-slate-400 text-lg mb-8">Exploring the boundaries of Artificial Intelligence. Join a community of thinkers, builders, and dreamers.</p>
+            <div class="flex space-x-4">
+                <button class="bg-blue-600 hover:bg-blue-500 px-8 py-3 rounded-lg font-semibold transition">Get Started</button>
+                <button class="border border-white/20 hover:bg-white/5 px-8 py-3 rounded-lg font-semibold transition">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="py-20 px-6 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-center" data-aos="fade-right">Upcoming Events</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="glass p-6 rounded-2xl border border-white/10 hover:border-cyan-500/50 transition-all group" data-aos="zoom-in" data-aos-delay="100">
+                <div class="h-40 bg-slate-800 rounded-lg mb-4 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800" alt="AI Event" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <h3 class="text-xl font-bold mb-2">GenAI Workshop</h3>
+                <p class="text-slate-400 text-sm mb-4">Learn to build applications using LLMs and modern AI frameworks.</p>
+                <span class="text-cyan-400 text-sm font-semibold italic">Oct 24, 2026</span>
+            </div>
+            </div>
+    </section>
+
+    <footer class="border-t border-white/10 py-12 px-6 bg-slate-900/50">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-8">
+            <div>
+                <h3 class="text-xl font-bold text-cyan-400 mb-4">AI Club</h3>
+                <p class="text-slate-400 max-w-sm">Empowering students through technology and collaborative intelligence. Let's build the next generation of software.</p>
+            </div>
+            <div class="flex md:justify-end space-x-6">
+                <a href="https://www.instagram.com/aiclub.vitb/?hl=en" class="text-slate-400 hover:text-white">Instagram</a>
+                <a href="https://www.linkedin.com/company/aiclub-vitb/?originalSubdomain=in" class="text-slate-400 hover:text-white">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+    </script>
+</body>
+</html>
